@@ -9,7 +9,7 @@ public class SetGame {
     private static Random random = new Random(); // needs to be initialized for the tests
     private static long totalRounds = 0;
     private static long gamesWithOnly12Cards = 0;
-    private static long[][] setCounter = new long[70][70]; // deck-size, table-size
+    private static long[][] setCounter = n  ew long[70][70]; // deck-size, table-size
     private static long[][] noSetCounter = new long[70][70]; // deck-size, table-size
     private static long[][] availableSets = new long[70][70]; // deck-size, table-size
 
